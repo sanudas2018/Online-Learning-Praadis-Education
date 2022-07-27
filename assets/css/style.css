@@ -1,0 +1,38 @@
+@font-face{
+   src:url(../fonts/google-font/Poppins-Bold.ttf);
+   font-family: Poppins-Bold;
+}
+@font-face{
+   src:url(../fonts/google-font/Roboto-Medium.ttf);
+   font-family: Roboto-Medium;
+}
+@font-face{
+   src:url(../fonts/google-font/BebasNeue-Regular.ttf);
+   font-family: BebasNeue-Regular;
+}
+@font-face{
+   src:url(../fonts/google-font/Cookie-Regular.ttf);
+   font-family: Cookie-Regular;
+}
+
+/* .........................
+Nav Menu Start
+......................... */
+.brand-text-font{
+   font-family: Poppins-Bold;
+   color: rgb(11, 10, 79);
+}
+.menu-font-color{
+   
+}
+@media only screen and (min-width:992px) {
+   .nav-menu{
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: space-around !important;
+      align-items: center !important;
+   }
+}
+/* .........................
+Nav Menu End
+......................... */
