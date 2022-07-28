@@ -59,7 +59,7 @@ Carousel Slider
    height: 80vh;
 }
 .carousel-item h1{
-   font-size: 4em;
+   font-size: 3.5em;
    margin: 0px auto;
 }
 .carousel-caption {
@@ -69,14 +69,14 @@ Carousel Slider
 .text-content{
    padding-top: 10px;
    position: absolute !important;
-   top: 58%;
+   top: 50%;
    left: 50%;
-   transform: translate(-50%, -58%);
+   transform: translate(-50%, -50%);
 }
 
-@media only screen and (min-width:1400px) {
+@media only screen and (min-width:1201px) {
    .carousel-item h1{
-      font-size: 4em;
+      font-size: 3.5rem;
       width: 38rem
    }
 
@@ -91,12 +91,24 @@ Carousel Slider
    .carousel-item h1{
       font-size: 2.5rem;
    }
+   .text-content{
+  
+      top: 47%;
+      left: 50%;
+      transform: translate(-50%, -42%);
+   }
 
 }
 
-@media only screen and (max-width:575px) and (min-width:0px){
+@media only screen and (min-width:0px) and (max-width:575px) {
    .carousel-item h1{
       font-size: 2em;
+   }
+   .text-content{
+  
+      top: 42%;
+      left: 50%;
+      transform: translate(-50%, -42%);
    }
 }
 
