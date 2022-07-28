@@ -150,6 +150,15 @@ Carousel Slider
       /* padding: 20px; */
    }
 }
+/* Frequently question Start  */
+@media only screen and (max-width:1800px) and (min-width:992px){
+   .frequently-p-aling{
+      width: 50%;
+      margin: 0px auto;
+   }
+}
+
+/* Frequently question End  */
 
 
 /* footer section start  */
