@@ -150,6 +150,13 @@ Carousel Slider
       /* padding: 20px; */
    }
 }
+
+/* Ready to join start  */
+.text-color{
+   color: rgba(197, 197, 197, 0.952);
+}
+
+
 /* Frequently question Start  */
 @media only screen and (max-width:1800px) and (min-width:992px){
    .frequently-p-aling{
