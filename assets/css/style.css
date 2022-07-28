@@ -60,6 +60,7 @@ Carousel Slider
 }
 .carousel-item h1{
    font-size: 4em;
+   margin: 0px auto;
 }
 .carousel-caption {
    text-align: center !important;
@@ -73,6 +74,13 @@ Carousel Slider
    transform: translate(-50%, -58%);
 }
 
+@media only screen and (min-width:1400px) {
+   .carousel-item h1{
+      font-size: 4em;
+      width: 38rem
+   }
+
+}
 @media only screen and (min-width:768px) and (max-width:991px){
    .carousel-item h1{
       font-size: 3em;
@@ -91,3 +99,43 @@ Carousel Slider
       font-size: 2em;
    }
 }
+
+/* Discover section start  */
+.discover-header h1{
+   color: rgb(11, 10, 79);
+   width: 25rem;
+}
+/* .discover-header p{
+   width: 35rem;
+} */
+
+@media only screen and (min-width:1200px){
+   .discover-header p{
+      width: 35rem;
+   }
+}
+
+@media only screen and (max-width:767px) and (min-width:576px){
+   .discover-img img{
+      width: 100vw;
+      height: 40vh !important;
+      
+   }
+}
+@media only screen and (max-width:575px) and (min-width:0px){
+   .discover-img img{
+      width: 100vw;
+      height: 40vh !important;
+      
+   }
+   .discover-header h1{
+      width: 15rem;
+   }
+   .discover-header p{
+      font-size: 1.5rem;
+      width: 20rem;
+      text-align: center !important;
+      /* padding: 20px; */
+   }
+}
+
