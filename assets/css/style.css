@@ -85,6 +85,9 @@ Carousel Slider
    .carousel-item h1{
       font-size: 3em;
    }
+   /* .discover-img{
+      height: 150px !important;
+   } */
 
 }
 @media only screen and (min-width:576px) and (max-width:767px){
@@ -113,6 +116,7 @@ Carousel Slider
 }
 
 /* Discover section start  */
+
 .discover-header h1{
    color: rgb(11, 10, 79);
    width: 25rem;
@@ -150,7 +154,26 @@ Carousel Slider
       /* padding: 20px; */
    }
 }
-
+/* Explore section start  */
+.expore-title{
+   color: rgb(11, 10, 79);
+}
+.explore-img img{
+   width: 100% !important;
+   height: 100% !important;
+}
+@media only screen and (max-width:767px) and (min-width:330px){
+   .explore-img {
+      height: 350px !important;
+   }
+   .explore-img img{
+     
+      /* height: 50% !important; */
+   }
+   .font-size{
+      font-size: 0.7rem;
+   }
+}
 /* Ready to join start  */
 .text-color{
    color: rgba(197, 197, 197, 0.952);
