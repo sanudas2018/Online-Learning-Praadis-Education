@@ -55,7 +55,7 @@ Nav Menu End
 Carousel Slider
 ......................... */
 .carousel-item{
-   height: 80vh;
+   height: 85vh;
    min-width: 300px;
 }
 .carousel-item::before{
@@ -66,11 +66,11 @@ Carousel Slider
    left: 0px;
    bottom: 0px;
    right: 0px;
-   background: rgba(0, 0, 0, 0.338);
+   background: rgba(0, 0, 0, 0.486);
    
 }
 .carousel-item img{
-   height: 80vh;
+   height: 85vh;
 }
 
 .carousel-caption {
@@ -80,19 +80,19 @@ Carousel Slider
 .text-content{
    padding-top: 10px;
    position: absolute !important;
-   top: 52%;
+   top: 50%;
    left: 50%;
-   transform: translate(-50%, -46%);
+   transform: translate(-50%, -50%);
 }
 .carousel-item h1{
-   font-size: 2.8rem;
+   font-size: 2.5rem;
    margin: 0px auto;
    width: 25rem !important;
 }
 .carousel-item p{
-   font-size: 1.4rem !important;
+   font-size: 1.2rem !important;
    width: 26rem !important;
-   color: rgba(231, 230, 230, 0.74) !important;
+   color: rgba(231, 230, 230, 0.89) !important;
 }
 
 @media only screen and (min-width:1201px) {
@@ -103,10 +103,10 @@ Carousel Slider
 
 @media only screen and (min-width:768px) and (max-width:991px){
    .carousel-item h1{
-      font-size: 3em;
+      font-size: 2.4em;
    }
    .carousel-item p{
-      font-size: 1.2rem !important;
+      font-size: 1.1rem !important;
    }
    .text-content{
       top: 49%;
@@ -132,8 +132,8 @@ Carousel Slider
       width: 16rem !important;
    }
    .carousel-item p{
-      font-size: 1.1rem !important;
-      width: 12rem !important;
+      font-size: 1rem !important;
+      width: 15rem !important;
    }
    .text-content{
       top: 49%;
