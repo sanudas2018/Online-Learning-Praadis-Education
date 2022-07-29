@@ -1,4 +1,0 @@
-what are the difference between flexbox and grid? 
-what are the difference between Bootstrap and tailwind?
-What is css box model?
-what is a semantic tag?
