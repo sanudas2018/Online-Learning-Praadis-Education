@@ -18,6 +18,8 @@
 /* .........................
 Nav Menu Start
 ......................... */
+/* companies logo  */
+.companies-title,
 .brand-text-font{
    font-family: Poppins-Bold;
    color: rgb(11, 10, 79);
@@ -70,10 +72,7 @@ Carousel Slider
 .carousel-item img{
    height: 80vh;
 }
-.carousel-item h1{
-   font-size: 3.5em;
-   margin: 0px auto;
-}
+
 .carousel-caption {
    text-align: center !important;
    margin: 0px auto;
@@ -81,80 +80,89 @@ Carousel Slider
 .text-content{
    padding-top: 10px;
    position: absolute !important;
-   top: 46%;
+   top: 52%;
    left: 50%;
    transform: translate(-50%, -46%);
+}
+.carousel-item h1{
+   font-size: 3.8rem;
+   margin: 0px auto;
+}
+.carousel-item p{
+   font-size: 1.8rem !important;
 }
 
 @media only screen and (min-width:1201px) {
    .carousel-item h1{
-      font-size: 3.5rem;
-      width: 38rem
+      width: 38rem;
    }
-
 }
+
 @media only screen and (min-width:768px) and (max-width:991px){
    .carousel-item h1{
       font-size: 3em;
    }
-   /* .discover-img{
-      height: 150px !important;
-   } */
-
+   .carousel-item p{
+      font-size: 1.2rem !important;
+   }
+   .text-content{
+      top: 53%;
+      left: 50%;
+   }
 }
 @media only screen and (min-width:576px) and (max-width:767px){
    .carousel-item h1{
-      font-size: 2.5rem;
+      font-size: 2.2rem;
+   }
+   .carousel-item p{
+      font-size: 1.1rem !important;
    }
    .text-content{
-  
-      top: 47%;
+      top: 49%;
       left: 50%;
-      transform: translate(-50%, -42%);
    }
-
 }
 
-@media only screen and (min-width:0px) and (max-width:575px) {
+@media only screen and (max-width:575px) {
    .carousel-item h1{
-      font-size: 2em;
+      font-size: 1.9rem !important;
+      
+   }
+   .carousel-item p{
+      font-size: 1.2rem !important;
    }
    .text-content{
-  
-      top: 42%;
+      top: 54%;
       left: 50%;
-      transform: translate(-50%, -42%);
    }
 }
-
 /* Discover section start  */
-
 .discover-header h1{
    color: rgb(11, 10, 79);
    width: 25rem;
 }
-/* .discover-header p{
-   width: 35rem;
-} */
-
 @media only screen and (min-width:1200px){
    .discover-header p{
       width: 35rem;
    }
 }
-
 @media only screen and (max-width:767px) and (min-width:576px){
    .discover-img img{
       width: 100vw;
       height: 40vh !important;
-      
+   }
+   .discover-header h1{
+      width: 20rem !important;
+      font-size: 1.5rem !important;
+   }
+   .discover-header p{
+      font-size: 0.8rem !important;
    }
 }
 @media only screen and (max-width:575px) and (min-width:0px){
    .discover-img img{
       width: 100vw;
-      height: 40vh !important;
-      
+      height: 40vh !important;  
    }
    .discover-header h1{
       width: 15rem;
@@ -163,10 +171,12 @@ Carousel Slider
       font-size: 1.5rem;
       width: 20rem;
       text-align: center !important;
-      /* padding: 20px; */
    }
 }
 /* Explore section start  */
+.explore-bg{
+   background-color: rgba(127, 255, 174, 0.27);
+}
 .expore-title{
    color: rgb(11, 10, 79);
 }
@@ -174,13 +184,10 @@ Carousel Slider
    width: 100% !important;
    height: 100% !important;
 }
+
 @media only screen and (max-width:767px) and (min-width:330px){
    .explore-img {
       height: 350px !important;
-   }
-   .explore-img img{
-     
-      /* height: 50% !important; */
    }
    .font-size{
       font-size: 0.7rem;
@@ -214,16 +221,7 @@ Carousel Slider
       margin: 0px auto;
    }
 }
-
 /* Frequently question End  */
-
-/* companies logo  */
-.companies-title{
-   font-family: Poppins-Bold;
-   color: rgb(11, 10, 79);
-}
-
-
 /* footer section start  */
 .bg-asses{
    background-color: rgba(61, 58, 58, 0.893);
