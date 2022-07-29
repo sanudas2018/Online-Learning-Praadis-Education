@@ -22,10 +22,22 @@ Nav Menu Start
    font-family: Poppins-Bold;
    color: rgb(11, 10, 79);
 }
-.menu-font-color{
-   
-}
+
 @media only screen and (min-width:992px) {
+   .nav-menu{
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: space-around !important;
+      align-items: center !important;
+   }
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+   .logo{
+      font-size: 1.1rem;
+   }
+   .navbar-nav-font ul li a{
+      font-size: .9rem;
+   }
    .nav-menu{
       display: flex !important;
       flex-direction: row !important;
@@ -178,8 +190,23 @@ Carousel Slider
 .text-color{
    color: rgba(197, 197, 197, 0.952);
 }
-
-
+/* Success Full student section Start  */
+@media only screen and (max-width:991px) and (min-width:768px){
+   .success h2{
+      font-size: 1.5rem !important;
+   }
+   .success p{
+      font-size: 0.8rem !important;
+   }
+}
+@media only screen and (max-width:767px) and (min-width:100px){
+   .success h2{
+      font-size: 1.1rem !important;
+   }
+   .success p{
+      font-size: 0.7rem !important;
+   }
+}
 /* Frequently question Start  */
 @media only screen and (max-width:1800px) and (min-width:992px){
    .frequently-p-aling{
